@@ -42,7 +42,7 @@ if __name__ == '__main__':
     df = pd.DataFrame(columns = eeg_columns)
 
     for id in range(0, len(participant_id) ) : #len(participant_id)                        
-        if (participant_id[id] == 'UN_103') or (participant_id[id] == 'UN_120')or (participant_id[id] == 'UN_1'):
+        if (participant_id[id] == 'UN_103') or (participant_id[id] == 'UN_120')or (participant_id[id] == 'UN_112'):
             print( "Duration wild:", "no wild data")
         else:
             print("participant id %s " %participant_id[id])
