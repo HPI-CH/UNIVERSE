@@ -28,3 +28,8 @@ Use `Data_Loader.ipynb` to load the **Raw**, **Synchronized**, and **Labeled** d
   
 ## Usage:
 The **Raw** data can be used to perform different synchronization methods and for unsupervised learning algorithms. The **Labeled** data serves the purpose of using the data for deep learning models, among others. The **Preprocessed** data and features can be reused and extended to perform various algorithms. 
+
+## Contributors:
+- Christoph Anders
+- Sidratul Moontaha
+- Samik Real
