@@ -27,7 +27,7 @@ if __name__ == '__main__':
     print()
     
 ########### wild data ##############
-    base_path = '/dhc/cold/groups/idyll/TEMPORARY_DATA_MANIPULATION/'
+    base_path = ''
     participant_id =  os.listdir(base_path)
 
     eeg_columns=['RAW_TP9', 'RAW_AF7', 'RAW_AF8', 'RAW_TP10']
