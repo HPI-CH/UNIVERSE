@@ -12,7 +12,7 @@ from pypg.plots import simple_plot
 import os
 from datetime import timedelta, datetime
 
-figure_path= "/dhc/cold/groups/idyll/TEMPORARY_DATA_MANIPULATION/(xtracted_figure)"
+figure_path= ""
 
 def interpolate_rows(dataframe, show= False):
     df = dataframe.copy(deep=True)
@@ -38,16 +38,6 @@ def interpolate_rows(dataframe, show= False):
         plt.show()
 
     return df
-
-
-# def drop_na_eeg(dataframe, columns_of_interest):
-#     df = dataframe.copy(deep=True)
-#     for i in columns_of_interest:
-#         df.loc[df[i] == 0, i] = np.NaN
-
-#     df = df.dropna(axis=0, how='any')#, subset=columns_of_interest)
-
-#     return df
 
 def acc_all_tasks_lab (base_path, participant_id, session, tasks):
     df_acc_tasks =[]
@@ -295,18 +285,6 @@ def notch(df, sf_eeg, f0, Q):
     df_notch = df.apply(lambda col: filtfilt(b,a, col), axis=0)
     return df_notch
     
-# def ICA_PCA(df):  ## not used so far
-#     # Compute PCA
-#     pca = PCA(n_components=4)
-#     H = pca.fit_transform(df)
-#     # Compute ICA
-#     ica = FastICA(n_components=4)
-#     S_ = ica.fit_transform(df)  # Reconstruct signals
-#     A_ = ica.mixing_  # Get estimated mixing matrix,
-#     df_ica=pd.DataFrame(S_)
-#     df_pca=pd.DataFrame(H)
-#     return(df_ica, df_pca)
-
 def average_reference(df_eeg, show= False): #
     columns = [ "RAW_TP9", "RAW_TP10", "RAW_AF7", "RAW_AF8"] 
     df_avg= df_eeg[columns]
