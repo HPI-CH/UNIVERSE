@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import numpy as np
 import pandas as pd
@@ -62,7 +57,6 @@ from sklearn.datasets import make_classification
 from classification_idyll_ml_personalised import make_pipeline, nested_cv, get_classification_scores, get_feature_importance, plot_classification_results
 
 
-# In[3]:
 
 
 ####### personalized model wild #####
