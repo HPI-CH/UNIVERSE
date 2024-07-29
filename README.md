@@ -4,7 +4,7 @@ The repository provides the platform to create the dataset and how to use the da
 ### Psychopy: 
 This platform is used to generate data in the controlled session. It is a Python toolbox which provides visual stimulation to elicit cognitive load of different levels. The data collection protocol can be used to reproduce or extend the dataset in the controlled setup.
 ### Data:
-Download the data using the [link here](10.5281/zenodo.10371068)
+Download the data using the [link here](https://doi.org/10.5281/zenodo.10371068)
 ### Setup:
 - Clone repository
   
