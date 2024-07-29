@@ -25,6 +25,9 @@ Use `Data_Loader.ipynb` to load the **Raw**, **Synchronized**, and **Labeled** d
 - Preprocessing: A pipeline used to preprocess the dataset. Among the various preprocessing methods performed in the state-of-the-art, the code shows an example of preprocessing steps performed on the dataset as a technical validation approach.  
 - Features: 24 features were extracted from different modalities for 60-second windows as an example use case of the mentioned dataset.
 - Machine learning: Using the features mentioned above, the Logistic Regression algorithm was applied to perform binary classification between high and low mental workload to provide sufficient proof of the technical validation of the dataset provided.
+
+![image](https://github.com/user-attachments/assets/db2f4861-f45c-4f4a-aec7-047251842e0c)
+
   
 ## Usage:
 The **Raw** data can be used to perform different synchronization methods and for unsupervised learning algorithms. The **Labeled** data serves the purpose of using the data for deep learning models, among others. The **Preprocessed** data and features can be reused and extended to perform various algorithms. 
