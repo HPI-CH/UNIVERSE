@@ -26,6 +26,9 @@ Use `Data_Loader.ipynb` to load the **Raw**, **Synchronized**, and **Labeled** d
 - Features: 24 features were extracted from different modalities for 60-second windows as an example use case of the mentioned dataset.
 - Machine learning: Using the features mentioned above, the Logistic Regression algorithm was applied to perform binary classification between high and low mental workload to provide sufficient proof of the technical validation of the dataset provided.
 
+### Folder Structure:
+The structure of the folder is as below:
+
 ![image](https://github.com/user-attachments/assets/db2f4861-f45c-4f4a-aec7-047251842e0c)
 
   
