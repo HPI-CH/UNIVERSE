@@ -265,7 +265,7 @@ if __name__ == '__main__':
     data_alignment_jobs = [
         # ["participant/Session/", "Muse.csv",
         # "Psychopy.csv", 0 , 0 , -0, -0],
-     
+    ]
        # The new data:
         # THE ORDER OF THE INDICES IS THE FOLLOWING: MUSE_START_MAX, EMPATICA_START_MAX, MUSE_END_MIN, EMP_END_MIN!!!
     two_empatica_recordings = False
@@ -324,7 +324,7 @@ if __name__ == '__main__':
                 empatica_to_fill_in_between.index[
                     list(range(entries_to_fill_in, len(dataframe_empatica_1st)))
                 ], inplace=True, errors='raise')
-             new_timestamps = [last_timestamp_1st_recording + (i * (timedelta(seconds=1) / 64))
+            new_timestamps = [last_timestamp_1st_recording + (i * (timedelta(seconds=1) / 64))
                               for i in range(1, entries_to_fill_in)]
             empatica_to_fill_in_between = empatica_to_fill_in_between.reindex(new_timestamps)
             dataframe_empatica_temp = dataframe_empatica_1st.append(empatica_to_fill_in_between)
@@ -458,7 +458,7 @@ if __name__ == '__main__':
             dataframe_muse['row_count'] = np.arange(len(dataframe_muse))
             dataframe_empatica['row_count'] = np.arange(len(dataframe_empatica))
 
-             sampling_rate_muse = 256  
+            sampling_rate_muse = 256  
             sampling_rate_empatica = 64  
             muse_samples_second = sampling_rate_muse
             empatica_samples_second = sampling_rate_empatica
@@ -853,7 +853,7 @@ if __name__ == '__main__':
                         [1, 'mindMonitor_2022-09-12--16-06-31.csv', 0],  
                      ]
 
-                UN_123_times_and_durations = [
+         UN_123_times_and_durations = [
             
             [
                 ['eye-closing', '2022-09-08 13-05-00', 60],
@@ -1350,7 +1350,7 @@ if __name__ == '__main__':
         ]
         
         
-         UN_104_times_and_durations = [
+        UN_104_times_and_durations = [
             [
                 ['eye-closing', '2022-11-08 11-35-00', 60],
                 ['nor_stress_nor_mw', '2022-11-08 11-36-00', 31*60]
@@ -1598,7 +1598,7 @@ if __name__ == '__main__':
 
         participant_id = 'UN_102'
         participant_session = '1'
-        base_path = 'UNIVERSE/UN_102
+        base_path = 'UNIVERSE/UN_102'
         participant_data_base_path = base_path
         output_folder = base_path
         merged_df_path = base_path
