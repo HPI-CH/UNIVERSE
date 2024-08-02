@@ -83,11 +83,6 @@ def calculate_spacebarpress_between_peaks(time_stamp_for_peaks):
 
 
 def get_acceleration_peak_time(folder_path, merged_df_path):
-    #folder_path = "../Data/3. Spacebar Tap Test 2/"
-    #folder_path = "../Data/2. Pilot Study Data/3. Samik/"
-    #psychopy_log_file_path = folder_path + "psychopy_test_experiment/data/test1_test_experiment_2022-06-14_15h50.26.995.log"
-    #df = pd.read_csv(folder_path + "merged_DF.csv")
-
     df = pd.read_csv(merged_df_path)
 
     plots_path = folder_path + "Plots/"
