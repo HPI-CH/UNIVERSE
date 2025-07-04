@@ -1,6 +1,6 @@
 # Wearable EEG, PPG, and EDA Dataset curated under Mental Workload conditions both in Controlled and Uncontrolled Environments
 ## About
-The repository provides the platform to create the dataset and how to use the dataset with the example of preprocessing, feature extraction, and machine learning pipeline as follows:
+The repository for the publication [Unobtrusive measurement of cognitive load and physiological signals in uncontrolled environments](https://doi.org/10.1038/s41597-024-03738-7) provides the platform to create the dataset and how to use the dataset with the example of preprocessing, feature extraction, and machine learning pipeline as follows:
 ### Psychopy: 
 This platform is used to generate data in the controlled session. It is a Python toolbox which provides visual stimulation to elicit cognitive load of different levels. The data collection protocol can be used to reproduce or extend the dataset in the controlled setup.
 ### Data:
